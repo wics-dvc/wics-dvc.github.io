@@ -1,0 +1,23 @@
+{
+  "name": "wics-dvc.github.io",
+  "version": "1.0.0",
+  "description": "Website for WiCS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wics-dvc/wics-dvc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wics-dvc/wics-dvc.github.io/issues"
+  },
+  "homepage": "https://github.com/wics-dvc/wics-dvc.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "panini": "^1.5.1"
+  }
+}

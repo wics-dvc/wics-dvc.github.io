@@ -7,6 +7,17 @@ h1 {
   text-align: center;
 }
 
+footer {
+  background-color: #212121;
+  color: #fff;
+  margin-top: 25px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100vw;
+}
+
+/* Custom Sections */
+
 #hero {
   background: #e9ecef;
   padding: 2.5rem;
@@ -17,7 +28,18 @@ h1 {
   margin-bottom: 1.25rem;
 }
 
+/* Custom Class */
+
+.icon {
+  color: #fff;
+}
+
+.icon:hover {
+  color: #fff;
+}
+
 /* Bootstrap Components Customization */
+
 .nav-item {
   padding: 0px 10px;
 }

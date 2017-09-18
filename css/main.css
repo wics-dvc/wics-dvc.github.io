@@ -1,8 +1,13 @@
 body {
+  color: #212121;
+  font-family: 'Segoe UI', sans-serif;
   padding-top: 50px; /* navbar height */
 }
 
 h1 {
+  color: #ff6e69;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -19,8 +24,10 @@ footer {
 /* Custom Sections */
 
 #hero {
-  background: #e9ecef;
+  background: #ff6e69;
+  color: #fff;
   padding: 2.5rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
 }
 
 #meetingInfo {
@@ -29,6 +36,12 @@ footer {
 }
 
 /* Custom Class */
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
 
 .icon {
   color: #fff;
@@ -40,7 +53,32 @@ footer {
 
 /* Bootstrap Components Customization */
 
+.btn {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  text-shadow: none;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.btn-primary {
+  background-color: #5CBC8B;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #3AA06C;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
 .nav-item {
+  font-weight: bold;
   padding: 0px 10px;
 }
 

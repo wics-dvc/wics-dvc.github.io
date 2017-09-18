@@ -2,6 +2,16 @@ body {
   padding-top: 50px; /* navbar height */
 }
 
+#hero {
+  background: #e9ecef;
+  padding: 2.5rem;
+}
+
+#meetingInfo {
+  line-height: 50%;
+  margin-bottom: 1.25rem;
+}
+
 /* Bootstrap Components Customization */
 .nav-item {
   padding: 0px 10px;

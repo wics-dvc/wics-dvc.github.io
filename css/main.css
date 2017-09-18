@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px; /* navbar height */
+}
+
+/* Bootstrap Components Customization */
+.nav-item {
+  padding: 0px 10px;
+}
+
+.navbar-nav {
+  margin-right: 10px;
+}

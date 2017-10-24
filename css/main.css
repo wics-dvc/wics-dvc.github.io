@@ -4,7 +4,7 @@ body {
   padding-top: 50px; /* navbar height */
 }
 
-h1 {
+h1, h2 {
   color: #ff6e69;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -19,6 +19,10 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 100vw;
+}
+
+hr {
+  margin-bottom: 25px;
 }
 
 /* Custom Sections */
@@ -49,6 +53,17 @@ footer {
 
 .icon:hover {
   color: #fff;
+}
+
+.col-mentorship {
+  height: inherit;
+  margin: 0px 10px 37px 10px;
+}
+
+.btn-mentorship {
+  align-self: center;
+  bottom: -15px;
+  position: absolute;
 }
 
 /* Bootstrap Components Customization */
@@ -84,4 +99,8 @@ footer {
 
 .navbar-nav {
   margin-right: 10px;
+}
+
+.card {
+  padding: 3%;
 }

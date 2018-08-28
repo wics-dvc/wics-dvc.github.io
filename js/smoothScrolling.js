@@ -1,3 +1,8 @@
+/*
+  This file will enable smooth scrolling behavior when you press an anchor link
+  on the website. You most likely won't need to change anything here.
+*/
+
 // Select all links with hashes
 $('a[href*="#"]')
 // Remove links that don't actually link to anything

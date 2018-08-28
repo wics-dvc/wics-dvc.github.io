@@ -1,6 +1,8 @@
+// Modules.
 var gulp = require('gulp');
 var panini = require('panini');
 
+// This is the default task that will run when you type 'gulp' in terminal.
 gulp.task('default',
   gulp.series(build, watch));
 
@@ -23,6 +25,7 @@ function reset(done) {
   done();
 }
 
+// Automatically call functions when files are being changed.
 function watch() {
   gulp.watch('src/pages/**/*.html').on('all', gulp.series(build));
   gulp.watch('src/{layouts,partials,helpers,data}/**/*').on('all', gulp.series(reset, build));

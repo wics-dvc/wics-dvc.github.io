@@ -1,4 +1,4 @@
-<center><img src="https://wicsdvc.com/img/logo.png" height="200"></center>
+<p style="text-align: center;"><img src="https://wicsdvc.com/img/logo.png" height="200"></p>
 
 # DVC WiCS Website
 Our official website!

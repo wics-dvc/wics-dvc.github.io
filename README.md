@@ -44,12 +44,12 @@ Before we start, you need to have these installed in your computer:
 ### Cloning
 
 1. In your forked repository page, click the green "Clone" button at the top right of the page.<br>
-  <img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" height="50">
+  <img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" height="50"><br>
 1. Copy the link that popped up.<br>
-  <img src="https://help.github.com/assets/images/help/repository/https-url-clone.png" height="100">
-1. Open a terminal (Mac) or command line (Windows).
+  <img src="https://help.github.com/assets/images/help/repository/https-url-clone.png" height="100"><br>
+1. Open a terminal (Mac) or command line (Windows).<br>
 1. Type `git clone <THE COPIED URL>` and press enter.<br>
-  (E.g.: `git clone https://github.com/nadyafebi/wics-dvc.github.io.git`)
+  (E.g.: `git clone https://github.com/nadyafebi/wics-dvc.github.io.git`)<br>
 1. If successful, there should be a new folder called `wics-dvc.github.io` in your computer.
 
 ### Installing Dependencies

@@ -18,6 +18,6 @@
   "homepage": "https://github.com/wics-dvc/wics-dvc.github.io#readme",
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0",
-    "panini": "^1.5.1"
+    "panini": "^1.6.2"
   }
 }

@@ -8,6 +8,8 @@ $('a[href*="#"]')
 // Remove links that don't actually link to anything
 .not('[href="#"]')
 .not('[href="#0"]')
+// don't add the images in the activities carousel for smooth scrolling
+.not('[href="#activities-carousel"]')
 .click(function(event) {
   // On-page links
   if (
@@ -23,7 +25,7 @@ $('a[href*="#"]')
       // Only prevent default if animation is actually gonna happen
       event.preventDefault();
       $('html, body').animate({
-        scrollTop: (target.offset().top - 80)
+        scrollTop: (target.offset().top - 80) // the "offset - 80" part is for showing the title of the section
       }, 1000, function() {
         // Callback after animation
         // Must change focus!

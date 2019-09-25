@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/wics-dvc/wics-dvc.github.io#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "panini": "^1.6.3"
   }
 }

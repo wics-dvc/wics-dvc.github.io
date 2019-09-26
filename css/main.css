@@ -39,6 +39,16 @@ hr {
   margin-bottom: 1.25rem;
 }
 
+#activities-carousel {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  #activities-carousel {
+    width: 70%;
+  }
+}
+
 /* Custom Class */
 
 .title {
